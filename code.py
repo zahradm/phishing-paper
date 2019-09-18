@@ -8,7 +8,7 @@ import community
 import collections
 
 #import data 
-data = pd.read_csv("F:\\D G\\py\\phishing.csv")
+data = pd.read_csv("phishing.csv")
 
 #cut data to tree part(all, legitimate, phishing) 
 all_of_data = data.copy()
